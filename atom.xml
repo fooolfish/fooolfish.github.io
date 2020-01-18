@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Mingjie Zhao&#39;s Blog</title>
   
-  
+  <subtitle>Hello World!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fooolfish.top/"/>
@@ -10,7 +10,7 @@
   <id>http://fooolfish.top/</id>
   
   <author>
-    <name>Mingjie Zhao / fooolfish</name>
+    <name>fooolfish</name>
     
   </author>
   
