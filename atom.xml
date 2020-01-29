@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fooolfish.top/"/>
-  <updated>2020-01-18T09:43:07.740Z</updated>
+  <updated>2020-01-29T08:16:58.263Z</updated>
   <id>http://fooolfish.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://fooolfish.top/2020/01/17/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95/"/>
     <id>http://fooolfish.top/2020/01/17/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95/</id>
     <published>2020-01-17T10:00:31.000Z</published>
-    <updated>2020-01-18T09:43:07.740Z</updated>
+    <updated>2020-01-29T08:16:58.263Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,11 @@
       
         
         
-          &lt;p&gt;这只是一个尝试，剩下啥都没有。。。。&lt;/p&gt;
-&lt;p&gt;好吧加一点：&lt;/p&gt;
+          &lt;p&gt;这只是搭好网页的一个尝试，剩下啥都没有。。。。&lt;/p&gt;
+&lt;p&gt;好吧加一点点吧：&lt;/p&gt;
 &lt;p&gt;发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印&lt;/p&gt;
 &lt;p&gt;在博客根目录下新建一个&lt;code&gt;watermark.py&lt;/code&gt;，代码如下：&lt;/p&gt;
-&lt;figure
+&lt;fi
         
       
     

@@ -8,25 +8,25 @@
   <link rel="dns-prefetch" href="http://fooolfish.top">
   <title>搭建个人博客的尝试 | Mingjie Zhao&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这只是一个尝试，剩下啥都没有。。。。 好吧加一点： 发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印 在博客根目录下新建一个watermark.py，代码如下： # -*- coding: utf-8 -*-import sysimport globfrom PIL import Imagefrom PIL import ImageDrawfrom PIL import Image">
+  <meta name="description" content="这只是搭好网页的一个尝试，剩下啥都没有。。。。 好吧加一点点吧： 发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印 在博客根目录下新建一个watermark.py，代码如下： # -*- coding: utf-8 -*-import sysimport globfrom PIL import Imagefrom PIL import ImageDrawfrom PIL impor">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建个人博客的尝试">
 <meta property="og:url" content="http://fooolfish.top/2020/01/17/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95/index.html">
 <meta property="og:site_name" content="Mingjie Zhao&#39;s Blog">
-<meta property="og:description" content="这只是一个尝试，剩下啥都没有。。。。 好吧加一点： 发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印 在博客根目录下新建一个watermark.py，代码如下： # -*- coding: utf-8 -*-import sysimport globfrom PIL import Imagefrom PIL import ImageDrawfrom PIL import Image">
+<meta property="og:description" content="这只是搭好网页的一个尝试，剩下啥都没有。。。。 好吧加一点点吧： 发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印 在博客根目录下新建一个watermark.py，代码如下： # -*- coding: utf-8 -*-import sysimport globfrom PIL import Imagefrom PIL import ImageDrawfrom PIL impor">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://fooolfish.top/2020/01/17/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95.assets/image-20200118172149236.png">
+<meta property="og:image" content="http://fooolfish.top/.top//%E5%B0%9D%E8%AF%95%E9%85%8D%E5%9B%BE.png">
 <meta property="article:published_time" content="2020-01-17T10:00:31.000Z">
-<meta property="article:modified_time" content="2020-01-18T09:43:07.740Z">
+<meta property="article:modified_time" content="2020-01-29T08:16:58.263Z">
 <meta property="article:author" content="fooolfish">
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://fooolfish.top/2020/01/17/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95.assets/image-20200118172149236.png">
+<meta name="twitter:image" content="http://fooolfish.top/.top//%E5%B0%9D%E8%AF%95%E9%85%8D%E5%9B%BE.png">
   
     <link rel="alternative" href="/atom.xml" title="Mingjie Zhao&#39;s Blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/头像.jpg">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -50,7 +50,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/头像.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">fooolfish</a></h1>
@@ -63,6 +63,8 @@
 			<ul>
 			
 				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a></li>
 	        
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
@@ -110,7 +112,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/头像.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">fooolfish</h1>
@@ -119,6 +121,8 @@
 			<p class="header-subtitle"><i class="icon icon-quo-left"></i>Hello World!<i class="icon icon-quo-right"></i></p>
 			
 			
+			
+				
 			
 				
 			
@@ -141,12 +145,14 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -181,8 +187,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这只是一个尝试，剩下啥都没有。。。。</p>
-<p>好吧加一点：</p>
+        <p>这只是搭好网页的一个尝试，剩下啥都没有。。。。</p>
+<p>好吧加一点点吧：</p>
 <p>发现有防止别人抄袭文章的方法，就是对所有所有图片都加上自己的水印</p>
 <p>在博客根目录下新建一个<code>watermark.py</code>，代码如下：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> glob</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> ImageDraw</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> ImageFont</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">watermark</span><span class="params">(post_name)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> post_name == <span class="string">'all'</span>:</span><br><span class="line">        post_name = <span class="string">'*'</span></span><br><span class="line">    dir_name = <span class="string">'source/_posts/'</span> + post_name + <span class="string">'/*'</span></span><br><span class="line">    <span class="keyword">for</span> files <span class="keyword">in</span> glob.glob(dir_name):</span><br><span class="line">        im = Image.open(files)</span><br><span class="line">        <span class="keyword">if</span> len(im.getbands()) &lt; <span class="number">3</span>:</span><br><span class="line">            im = im.convert(<span class="string">'RGB'</span>)</span><br><span class="line">            print(files)</span><br><span class="line">        font = ImageFont.truetype(<span class="string">'STSONG.TTF'</span>, max(<span class="number">30</span>, int(im.size[<span class="number">1</span>] / <span class="number">20</span>)))</span><br><span class="line">        draw = ImageDraw.Draw(im)</span><br><span class="line">        draw.text((im.size[<span class="number">0</span>] / <span class="number">2</span>, im.size[<span class="number">1</span>] / <span class="number">2</span>),</span><br><span class="line">                  <span class="string">u'@yourname'</span>, fill=(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>), font=font)</span><br><span class="line">        im.save(files)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="keyword">if</span> len(sys.argv) == <span class="number">2</span>:</span><br><span class="line">        watermark(sys.argv[<span class="number">1</span>])</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">'[usage] &lt;input&gt;'</span>)</span><br></pre></td></tr></table></figure>
@@ -190,7 +196,7 @@
 <p>同时<a href="http://www.xiazaiziti.com/205234.html" target="_blank" rel="noopener">字体</a>也要放在更目录下，每次写完文章运行<code>python3 watermark.py postname</code>添加水印，如果要给所有文章添加水印，直接运行<code>python3 watermark.py all</code></p>
 <p>参考博客： <a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/35668237</a> </p>
 <p>尝试配图：</p>
-<p><img src="./%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B0%9D%E8%AF%95.assets/image-20200118172149236.png" alt="image-20200118172149236"></p>
+<p><img src="/.top//%E5%B0%9D%E8%AF%95%E9%85%8D%E5%9B%BE.png" alt="尝试配图"></p>
 
       
 
@@ -363,11 +369,10 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-center">
-    		&copy; 2020 fooolfish
+			&copy; 2020 fooolfish
+			<br>
+			Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> | Theme by <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia</a>.
     	</div>
-      	<div class="footer-right">
-      		
-      	</div>
     </div>
   </div>
 </footer>
